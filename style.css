@@ -51,8 +51,9 @@ body {
 
 /** SOBRE **/
 #sobre {
-  padding-top: 100px;
-  padding-bottom: 10px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  background-color: #efefef;
 }
 #sobre h2 {
   font-family: "Montserrat", sans-serif;
@@ -81,6 +82,14 @@ body {
 
 .setores-bloco img {
   height: 200px;
+}
+
+/** OFERTAS **/
+
+#ofertas {
+  margin-top: 50px;
+  background-color: #efefef;
+  padding-bottom: 10px;
 }
 
 /** CONTATO **/
