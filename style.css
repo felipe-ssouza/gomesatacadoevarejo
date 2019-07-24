@@ -52,10 +52,10 @@ body {
 }
 
 /** SOBRE **/
+
 #sobre {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #efefef;
+  padding: 100px 0;
+  background-color: #f4f4f4;
 }
 
 
@@ -63,13 +63,6 @@ body {
 
 .titulo {
   margin: 50px 0;
-  text-transform: lowercase;
-  /* color: #006ead; */
-
-}
-
-.titulo h4 {
-  font-weight: 500;
 }
 
 .heading {
@@ -81,9 +74,8 @@ body {
 .heading strong {
   font-family: inherit;
   font-weight: 700;
-
-
 }
+
 .setores-bloco {
   border: 1px solid #ccc;
   padding: 10px;
@@ -98,7 +90,7 @@ body {
 
 #ofertas {
   margin-top: 50px;
-  background-color: #efefef;
+  background-color: #f4f4f4;
   padding-bottom: 10px;
 }
 
