@@ -1,0 +1,114 @@
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap');
+body {
+  padding: none;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+/** NAVBAR **/
+
+#header {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/** INTRO **/
+
+#intro {
+  background-color: #dcdcdc;
+}
+
+#slider {
+  padding: 0 !important;
+}
+
+#carousel .carousel-item {
+  height: 60vh;
+  background-size: cover !important;
+  background-position: 40% 50% !important;
+}
+
+#legenda {
+  position: relative;
+  bottom: 1;
+  top: 0;
+  padding-top: 20px;
+  color: #eee;
+  background-color: #d11;
+}
+
+#legenda h4 {
+  font-weight: 700;
+}
+
+#legenda p {
+  font-weight: 500;
+}
+/** SETORES **/
+
+#setores {
+  margin-top: 10px;
+}
+
+.titulo {
+  margin: 50px 0;
+}
+
+.titulo h4 {
+  font-weight: 300;
+}
+
+.titulo span:after {
+  content:"";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #e11;
+  margin-top: 5px;
+}
+
+.setores-bloco {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.setores-bloco img {
+  height: 200px;
+}
+
+/** CONTATO **/
+
+.bloco-map {
+  margin-top: 130px;
+  border: 1px solid #ccc;
+  padding: 140px 0;
+}
+
+/** FOOTER **/
+
+#footer {
+  margin-top: 100px;
+  background-color: #222;
+  padding: 50px 0;
+}
+
+/****************/
+.dropdown-item {
+  font-weight: 300 !important;
+}
+
+.responsive-video {
+  padding-bottom: 56%;
+}
+
+.resposive-video source {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
