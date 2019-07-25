@@ -92,7 +92,8 @@ body {
 }
 
 .setores-bloco {
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.1);  
   padding: 10px;
   margin-top: 10px;
 }
@@ -143,6 +144,6 @@ body {
 }
 
 #form-contato input::placeholder, #form-contato textarea::placeholder {
-  
+
   font-weight: 300;
 }
