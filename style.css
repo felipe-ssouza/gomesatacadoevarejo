@@ -5,6 +5,7 @@
 body {
   padding: none;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 * {
@@ -134,7 +135,6 @@ body {
 #unidades {
   margin-top: 50px;
   padding: 40px 0;
-
 }
 
 .unidade {
@@ -150,17 +150,24 @@ body {
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
 }
 
+
 /** CONTATO **/
 
 #contato {
   padding: 40px 0;
 }
 
-.bloco-map {
-  margin-top: 130px;
-  border: 1px solid #ccc;
-  padding: 140px 0;
+#infos {
+  border: 1px solid;
 }
+
+.info {
+  text-align: center;
+  padding: 50px 0;
+
+
+}
+
 
 /** FOOTER **/
 
