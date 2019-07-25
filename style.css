@@ -44,10 +44,13 @@ body {
 
 #navbar #navbar-menu #sac {
   color: #e22;
-  /* border:1px solid #e22; */
+  font-family: "Roboto", sans-serif;
+  border:1px solid #e22;
   font-weight: 400;
-  border-radius: 10px;
-  width: 190px;
+  border-radius: 40px;
+  letter-spacing: 1px;
+  width: 200px;
+  margin-top: -5px;
 }
 
 /** INTRO **/
