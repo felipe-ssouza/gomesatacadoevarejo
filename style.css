@@ -32,14 +32,22 @@ body {
   font-family: "Raleway", sans-serif;
   color: #444;
   font-weight: 500;
-  width: 120px;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
+  width: 120px;
 }
 
 #navbar #navbar-menu a:hover {
   color: #076bff;
+}
+
+#navbar #navbar-menu #sac {
+  color: #e22;
+  /* border:1px solid #e22; */
+  font-weight: 400;
+  border-radius: 10px;
+  width: 190px;
 }
 
 /** INTRO **/
