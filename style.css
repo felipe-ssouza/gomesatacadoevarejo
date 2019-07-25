@@ -12,6 +12,14 @@ body {
   font-weight: 300;
 }
 
+.bg-one {
+  background-color: #f8f9f9;
+}
+
+.bg-two {
+  background-color: #fff;
+}
+
 
 /** NAVBAR **/
 #header {
@@ -30,7 +38,7 @@ body {
 }
 
 #navbar #navbar-menu a:hover {
-  color: #ddd;
+  color: #076bff;
 }
 
 /** INTRO **/
@@ -70,11 +78,13 @@ body {
 
 #sobre {
   padding: 100px 0;
-  background-color: #f8f9f9;
 }
 
-
 /** SETORES **/
+
+#setores {
+  padding: 40px 0;
+}
 
 .titulo {
   margin: 50px 0;
@@ -94,6 +104,7 @@ body {
 .setores-bloco {
   display: block;
   text-decoration: none;
+  background-color: #fff;
   color: #222;
   /* border: 1px solid #ccc; */
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
@@ -113,12 +124,29 @@ body {
 /** OFERTAS **/
 
 #ofertas {
-  margin-top: 100px;
-  background-color: #f8f9f9;
+  margin-top: 50px;
   padding: 40px 0;
 }
 
+
+/** UNIDADE **/
+
+#unidades {
+  margin-top: 50px;
+  padding: 40px 0;
+
+}
+
+.unidade {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
 /** CONTATO **/
+
+#contato {
+  padding: 40px 0;
+}
 
 .bloco-map {
   margin-top: 130px;
@@ -129,7 +157,6 @@ body {
 /** FOOTER **/
 
 #footer {
-  margin-top: 100px;
   background-color: #222;
   padding: 50px 0;
 }
