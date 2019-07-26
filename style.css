@@ -39,14 +39,14 @@ body {
 }
 
 #navbar #navbar-menu a:hover {
-  color: #076bff;
+  /* color: #076bff; */
+  color: #e3e8ff;
 }
 
 #navbar #navbar-menu #sac {
   color: #e22;
-  font-family: "Roboto", sans-serif;
   border:1px solid #e22;
-  font-weight: 400;
+  font-weight: 600;
   border-radius: 40px;
   letter-spacing: 1px;
   width: 200px;
