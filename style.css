@@ -222,11 +222,13 @@ html {
 /** SETORES BLOCO **/
 
 #setores-bloco {
+  margin-top: 50px;
   padding: 100px 0;
 }
 
 .setor {
-  margin-top: 100px;
+  padding-top: 100px;
+  margin-top: 5px; 
 }
 
 /****************/
