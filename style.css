@@ -214,6 +214,10 @@ html {
     padding: 50px 0;
  }
 
+
+.row-reset {
+  margin: 0 !important;
+}
 /****************/
 .dropdown-item {
   font-weight: 300 !important;
