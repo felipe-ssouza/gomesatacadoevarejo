@@ -198,6 +198,12 @@ html {
   padding: 50px 0;
 }
 
+/** EMPRESA **/
+
+#empresa, #historia {
+  padding: 100px 0;
+}
+
 /****************/
 .dropdown-item {
   font-weight: 300 !important;
@@ -216,6 +222,13 @@ html {
 }
 
 #form-contato input::placeholder, #form-contato textarea::placeholder {
-
   font-weight: 300;
+}
+
+
+.instaimg img {margin-bottom:30px;}
+.instaimg img:hover {
+	opacity:0.8;
+	-moz-opacity:0.8;
+	-webkit-opacity:0.8;
 }
