@@ -128,6 +128,11 @@ html {
   font-weight: 700;
 }
 
+.subheading {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
 .setores-bloco {
   display: block;
   text-decoration: none;
