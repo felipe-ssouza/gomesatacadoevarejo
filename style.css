@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,800&display=swap');
 html {
   padding: none;
@@ -20,10 +20,7 @@ html {
 /** NAVBAR **/
 #header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-#navbar #navbar-menu .nav-item {
-
+  background:#fff;
 }
 
 #navbar #navbar-menu .nav-item  a {
@@ -159,7 +156,6 @@ html {
   padding: 40px 0;
 }
 
-
 /** UNIDADE **/
 
 #unidades {
@@ -178,7 +174,6 @@ html {
 .unidade:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 }
-
 
 /** CONTATO **/
 
@@ -219,10 +214,21 @@ html {
     padding: 50px 0;
  }
 
-
 .row-reset {
-  margin: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
+
+/** SETORES BLOCO **/
+
+#setores-bloco {
+  padding: 100px 0;
+}
+
+.setor {
+  margin-top: 100px;
+}
+
 /****************/
 .dropdown-item {
   font-weight: 300 !important;
