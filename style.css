@@ -198,11 +198,21 @@ html {
   padding: 50px 0;
 }
 
-/** EMPRESA **/
+/** EMPRESA HISTORIA **/
 
 #empresa, #historia {
   padding: 100px 0;
 }
+
+/** BLOCO UNIDADES **/
+
+#bloco-unidades {
+  padding: 100px 0;
+}
+
+.bloco-unidade {
+    padding: 50px 0;
+ }
 
 /****************/
 .dropdown-item {
@@ -225,6 +235,7 @@ html {
   font-weight: 300;
 }
 
+/** INSTAFEED **/
 
 .instaimg img {margin-bottom:30px;}
 .instaimg img:hover {
