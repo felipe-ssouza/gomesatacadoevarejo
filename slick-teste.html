@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>TESTE</title>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+  <style media="screen">
+    .slider div {
+      padding: 20px;
+    }
+    .slider img {
+      width: 80%;
+      text-align: center;
+    }
+
+    .slider .fa-chevron-circle-right{
+      position: absolute;
+      top: 100px;
+      right:0;
+      color: #ccc;
+      font-size: 28px;
+    }
+
+    .slider .fa-chevron-circle-left{
+      position: absolute;
+      top: 100px;
+      left:0;
+      color: #ccc;
+      font-size: 28px;
+    }
+  </style>
+</head>
+<body>
+<div class="contanier">
+  <div class="row">
+
+    <div class="col-10">
+
+      <div class="slider">
+        <div>
+          <img src="img/açogue.jpg" alt="" />
+        </div>
+        <div>
+          <img src="img/confeitaria.png" alt="" />
+        </div>
+        <div>
+          <img src="img/padaria.png" alt="" />
+        </div>
+        <div>
+          <img src="img/hortifruti.png" alt="" />
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <!-- <script src="slick-teste.js"></script> -->
+  <script type="text/javascript">
+
+    $(document).ready(function() {
+      $('.slider').slick({
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        nextArrow: '<i class="fa fas fa-chevron-circle-right"></i>',
+        prevArrow: '<i class="fa fas fa-chevron-circle-left"></i>',
+        responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        ]
+      });
+
+    });
+
+
+  </script>
+</body>
+</html>

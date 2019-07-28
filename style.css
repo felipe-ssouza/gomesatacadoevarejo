@@ -241,12 +241,12 @@ html {
 
 #galeria .galeria-item {
   display: block;
-  box-shadow: 0 0  20px 0 rgba(0, 0, 0, 0.1), 0 0  20px 0 rgba(0, 0, 0, 0.1) ;
-
+  /* box-shadow: 0 0  20px 0 rgba(0, 0, 0, 0.1), 0 0  20px 0 rgba(0, 0, 0, 0.1) ; */
 }
 
-.galeria-item img {
-
+.galeria-img {
+    width: 100%;
+    padding: 20px;
 }
 
 /****************/
