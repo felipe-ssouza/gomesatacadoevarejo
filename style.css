@@ -30,7 +30,8 @@ html {
   letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
-  width: 120px;
+  width: 100px;
+  font-size: 14px;
 
 }
 #navbar .dropdown-menu {
@@ -228,7 +229,23 @@ html {
 
 .setor {
   padding-top: 100px;
-  margin-top: 5px; 
+  margin-top: 5px;
+}
+
+/** GALERIA **/
+
+#galeria {
+  padding: 40px 0;
+}
+
+#galeria .galeria-item {
+  display: block;
+  box-shadow: 0 0  20px 0 rgba(0, 0, 0, 0.1), 0 0  20px 0 rgba(0, 0, 0, 0.1) ;
+
+}
+
+.galeria-item img {
+
 }
 
 /****************/
