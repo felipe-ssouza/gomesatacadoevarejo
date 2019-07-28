@@ -241,12 +241,28 @@ html {
 
 #galeria .galeria-item {
   display: block;
+  padding: 10px 15px;
   /* box-shadow: 0 0  20px 0 rgba(0, 0, 0, 0.1), 0 0  20px 0 rgba(0, 0, 0, 0.1) ; */
 }
 
 .galeria-img {
     width: 100%;
-    padding: 20px;
+}
+
+#galeria .fa{
+  color: #ccc;
+  position: absolute;
+  font-size: 28px;
+}
+
+#galeria .fa-chevron-circle-left {
+  top: 50px;
+  left: 0;
+}
+
+#galeria .fa-chevron-circle-right {
+  top: 50px;
+  right: 0;
 }
 
 /****************/

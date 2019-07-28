@@ -18,8 +18,10 @@ $(document).ready(function() {
       infinite: true,
       autoplay: true,
       speed: 200,
-      slidesToShow: 6,
+      slidesToShow: 4,
       slidesToScroll: 1,
+      nextArrow: '<i class="fa fas fa-chevron-circle-right"></i>',
+      prevArrow: '<i class="fa fas fa-chevron-circle-left"></i>',
       responsive: [
       {
         breakpoint: 1024,
