@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+    <link rel="stylesheet" href="lib/owlcarousel/dist/assets/owl.carousel.css">
+
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -66,9 +68,9 @@
           </ul>
         </div>
       </nav>
-    </header>
 
     <!-- VIDEO -->
+  </header>
     <div class="embed-responsive embed-responsive-16by9 mt-5">
       <video autoplay muted>
         <source src="img/gomes.mp4" type="video/mp4">
@@ -260,7 +262,7 @@
     </section>
 
         <!-- SESSÂO TESTEMUNHOS -->
-        <section id="testemunhos">
+        <section id="testemunhos" style="display:none">
           <div class="container">
             <div class="row">
               <div class="col-12 text-center titulo">
@@ -279,64 +281,34 @@
     <!-- SESSÂO GALERIA -->
     <section id="galeria" class="bg-one">
       <div class="container">
-        <div class="col-12 text-center titulo">
+        <!-- <div class="col-12 text-center titulo">
           <h2 class="heading">GALERIA</h2>
           <p>
             <i>Confira a Nossa Galeria de Fotos</i>
           </p>
+        </div> -->
+        <!-- <div class="row">
+          <div class="galeria-slider" id="">
+            <div class="col-12">
+              <img src="img/padaria.png" alt="" >
+            </div>
+            <div class="col-12">
+              <img src="img/padaria.png" alt="" >
+            </div>
+            <div class="col-12">
+              <img src="img/padaria.png" alt="" >
+            </div>
+            <div class="col-12">
+              <img src="img/padaria.png" alt="" >
+            </div>
+          </div>
         </div>
-        <div class="row galeria-slider" id="galeria-imagens">
-          <div class="col-12 col-lg-4 ">
-            <a href="#"  class="galeria-item">
-              <img src="img/img1.jpg" alt="" class="galeria-img">
-            </a>
-          </div>
-
-          <div class="col-12 col-lg-4">
-            <a href="#" class="galeria-item">
-              <img src="img/img8.jpg" alt="" class="galeria-img" >
-            </a>
-          </div>
-
-          <div class="col-12 col-lg-4 ">
-            <a href="#" class="galeria-item">
-              <img src="img/img2.jpg" alt="" class="galeria-img">
-            </a>
-          </div>
-
-          <div class="col-12 col-lg-4 ">
-            <a href="#" class="galeria-item">
-              <img src="img/img19.jpg" alt="" class="galeria-img">
-            </a>
-          </div>
-
-          <div class="col-12 col-lg-4 ">
-            <a href="#" class="galeria-item">
-              <img src="img/img9.jpg" alt="" class="galeria-img">
-            </a>
-          </div>
-
-          <div class="col-12 col-lg-4 ">
-            <a href="#" class="galeria-item">
-              <img src="img/img10.jpeg" alt="" class="galeria-img">
-            </a>
-          </div>
-
-          <div class="col-12 col-lg-4 ">
-            <a href="#" class="galeria-item">
-              <img src="img/img11.jpg" alt="" class="galeria-img">
-            </a>
-          </div>
-
-          <div class="col-12 col-lg-4 ">
-            <a href="#" class="galeria-item">
-              <img src="img/img4.jpg" alt="" class="galeria-img">
-            </a>
-          </div>
-          
-        </div>
-      </div>
+      </div> -->
     </section>
+
+    <div class="container">
+
+    </div>
 
     <!--SESSÂO CONTATO-->
     <section id="contato" >
@@ -411,10 +383,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script src="lib/owlcarousel/dist/owl.carousel.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/instafeed.js"></script>
     <script src="js/custom.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".galeria-slider").owlCarousel({
+          autoplay: true,
+          dots: true,
+          loop: true,
+          responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 }
+          }
+        });
+      });
+
+
+    </script>
   </body>
 </html>

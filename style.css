@@ -1,6 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,800&display=swap');
 html {
   padding: none;
@@ -57,16 +57,19 @@ html {
 }
 
 #navbar #navbar-menu #sac {
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   color: #49ca73;
-  border: 2px solid #49ca73;
+  border: 1px solid #49ca73;
   border-radius: 40px;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   margin-top: -5px;
-  width: 200px;
+  width: 230px;
 }
-
+#navbar #navbar-menu #sac:hover {
+  color: #8ff2a1;
+  border-color: #8ff2a1;
+}
 #navbar .dropdown:hover .dropdown-menu {
     display: block;
 }
@@ -234,36 +237,6 @@ html {
 }
 
 /** GALERIA **/
-
-#galeria {
-  padding: 40px 0;
-}
-
-#galeria .galeria-item {
-  display: block;
-  padding: 10px 15px;
-  /* box-shadow: 0 0  20px 0 rgba(0, 0, 0, 0.1), 0 0  20px 0 rgba(0, 0, 0, 0.1) ; */
-}
-
-.galeria-img {
-    width: 100%;
-}
-
-#galeria .fa{
-  color: #ccc;
-  position: absolute;
-  font-size: 28px;
-}
-
-#galeria .fa-chevron-circle-left {
-  top: 50px;
-  left: 0;
-}
-
-#galeria .fa-chevron-circle-right {
-  top: 50px;
-  right: 0;
-}
 
 /****************/
 .dropdown-item {
