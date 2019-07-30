@@ -240,14 +240,17 @@ html {
 
 #galeria {
   padding: 40px 0;
+
 }
 
 #galeria .galeria-item {
 }
 
-.imagem-galeria {
-
+#galeria a.imagem-galeria:hover {
+  opacity: 0.8;
 }
+
+
 
 /****************/
 .dropdown-item {
