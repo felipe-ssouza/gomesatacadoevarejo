@@ -240,17 +240,21 @@ html {
 
 #galeria {
   padding: 40px 0;
-
+  text-align: center;
 }
 
-#galeria .galeria-item {
+#galeria .imagem-galeria {
+  display: block;
+  width: 96%;
+  height: 300px;
+  transition: 0.3s;
+  padding: 15px 0;
+  margin: auto;
 }
 
 #galeria a.imagem-galeria:hover {
   opacity: 0.8;
 }
-
-
 
 /****************/
 .dropdown-item {
