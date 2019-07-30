@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,800&display=swap');
 html {
@@ -9,8 +9,8 @@ html {
 }
 
 * {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 .bg-one {
@@ -237,6 +237,17 @@ html {
 }
 
 /** GALERIA **/
+
+#galeria {
+  padding: 40px 0;
+}
+
+#galeria .galeria-item {
+}
+
+.imagem-galeria {
+
+}
 
 /****************/
 .dropdown-item {

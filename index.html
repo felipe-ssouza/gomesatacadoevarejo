@@ -190,7 +190,7 @@
             <img src="img/hortifruti.png" alt="" width=100% class="mb-4">
               <h6 class="heading">HORTIFRUTI</h6>
               <p>Aqui temos verduras e lugumes</p>
-              <p class="text-left" style="font-size: 14px">Lorem ipsum dolor sit amet consectetur adipiscing, elit taciti dapibus libero molestie tristique lacus, penatibus sociis eu vehicula tortor. </p>
+              <p class="text-left" style="font-size: 14px">Lorem ipsum dolor sit amet consectetur adipiscing, elit taciti dapibus libero molestie tristique lacus. </p>
             </a>
           </div>
 
@@ -278,32 +278,41 @@
           </div>
         </section>
 
+
+
+
+
     <!-- SESSÂO GALERIA -->
-    <section id="galeria" class="bg-one">
+    <section id="galeria" class="">
       <div class="container">
-        <!-- <div class="col-12 text-center titulo">
+        <div class="col-12 text-center titulo">
           <h2 class="heading">GALERIA</h2>
           <p>
             <i>Confira a Nossa Galeria de Fotos</i>
           </p>
-        </div> -->
-        <!-- <div class="row">
-          <div class="galeria-slider" id="">
-            <div class="col-12">
-              <img src="img/padaria.png" alt="" >
-            </div>
-            <div class="col-12">
-              <img src="img/padaria.png" alt="" >
-            </div>
-            <div class="col-12">
-              <img src="img/padaria.png" alt="" >
-            </div>
-            <div class="col-12">
-              <img src="img/padaria.png" alt="" >
-            </div>
-          </div>
         </div>
-      </div> -->
+
+          <div class="owl-carousel col text-center" id="galeria-slider">
+
+            <div class=""  class="galeria-item">
+              <a href="#" style="display:block; width: 265px; height: 250px; background: url('img/img2.jpg') no-repeat center; background-size: cover; " class="imagem-galeria"></a>
+            </div>
+
+            <div class=""  class="galeria-item">
+              <a href="#" style="display:block; width: 265px; height: 250px; background: url('img/img4.jpg') no-repeat center; background-size: cover;" class="imagem-galeria"></a>
+            </div>
+
+            <div class=""  class="galeria-item">
+              <a href="#" style="display:block; width: 265px; height: 250px; background: url('img/img5.jpg') no-repeat center; background-size: cover;" class="imagem-galeria"></a>
+            </div>
+
+            <div class=""  class="galeria-item">
+              <a href="#" style="display:block; width: 265px; height: 250px; background: url('img/img6.jpg') no-repeat center; background-size: cover;" class="imagem-galeria"></a>
+            </div>
+
+          </div>
+
+      </div>
     </section>
 
     <div class="container">
@@ -379,28 +388,28 @@
         </div>
       </div>
     </footer>
+
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
-    <script src="lib/owlcarousel/dist/owl.carousel.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/instafeed.js"></script>
     <script src="js/custom.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $(".galeria-slider").owlCarousel({
-          autoplay: true,
-          dots: true,
-          loop: true,
-          responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 }
-          }
-        });
-      });
-
-
+    <script src="lib/owlcarousel/dist/owl.carousel.js"></script>
+    <script>
+       $(document).ready(function() {
+         $(".owl-carousel").owlCarousel({
+           autoplay: true,
+           dots: true,
+           loop: true,
+           responsive: { 0: { items: 1 }, 768: { items: 3 }, 900: { items: 4 }
+           }
+         });
+       });
     </script>
   </body>
 </html>
