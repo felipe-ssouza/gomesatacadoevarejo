@@ -244,11 +244,9 @@ html {
 }
 
 #galeria .imagem-galeria {
-  display: block;
   width: 96%;
   height: 300px;
   transition: 0.3s;
-  padding: 15px 0;
   margin: auto;
 }
 
