@@ -30,7 +30,7 @@ html {
   letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
-  width: 100px;
+  /* width: 100px; */
   font-size: 14px;
 
 }
@@ -63,8 +63,7 @@ html {
   border: 1px solid #49ca73;
   border-radius: 40px;
   /* letter-spacing: 1px; */
-  margin-top: -5px;
-  width: 230px;
+  /* width: 230px; */
 }
 #navbar #navbar-menu #sac:hover {
   color: #8ff2a1;
