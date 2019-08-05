@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
     <!-- <link rel="stylesheet" href="lib/owlcarousel/dist/assets/owl.carousel.css"> -->
 
@@ -279,7 +280,7 @@
         </section>
 
     <!-- SESSÂO GALERIA -->
-    <section id="galeria" class="" style="display:none">
+    <section id="galeria" class="">
       <div class="container">
          <div class="col-12 text-center titulo">
             <h2 class="heading">GALERIA</h2>
@@ -288,7 +289,7 @@
             </p>
           </div>
 
-          <div class="owl-carousel" id="galeria-slider">
+          <div class="owl-carousel owl-theme" id="galeria-slider">
               <img href="#"  class="imagem-galeria" src="img/img2.jpg">
               <img href="#"  class="imagem-galeria" src="img/img8.jpg">
               <img href="#"  class="imagem-galeria" src="img/img4.jpg">
@@ -379,16 +380,17 @@
     <script src="js/instafeed.js"></script>
     <script src="js/custom.js"></script>
     <!-- <script src="lib/owlcarousel/dist/owl.carousel.js"></script> -->
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script>
-       // $(document).ready(function() {
-       //   $(".owl-carousel").owlCarousel({
-       //     autoplay: true,
-       //     dots: true,
-       //     loop: true,
-       //     responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 3 }
-       //     }
-       //   });
-       // });
+       $(document).ready(function() {
+         $(".owl-carousel").owlCarousel({
+           autoplay: true,
+           dots: true,
+           loop: true,
+           responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 3 }
+           }
+         });
+       });
     </script>
   </body>
 </html>
