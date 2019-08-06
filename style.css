@@ -247,8 +247,11 @@ html {
   height: 300px;
   transition: 0.3s;
   margin: auto;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
 }
+img {
 
+}
 #galeria a.imagem-galeria:hover {
   opacity: 0.8;
 }
@@ -276,9 +279,18 @@ html {
 
 /** INSTAFEED **/
 
-.instaimg img {margin-bottom:30px;}
+.instaimg img {
+  margin-bottom: 30px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+}
+
 .instaimg img:hover {
 	opacity:0.8;
 	-moz-opacity:0.8;
 	-webkit-opacity:0.8;
+}
+
+
+.owl-item {
+
 }

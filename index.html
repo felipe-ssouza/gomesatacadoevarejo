@@ -219,8 +219,10 @@
                 <i>Confira as Melhores Ofertas da Semana</i>
               </p>
             </div>
-            <div id="instafeed" class="row gallery"></div>
           </div>
+        </div>
+        <div class="row">
+          <div id="instafeed" class="owl-carousel owl-theme"></div>
         </div>
       </div>
     </section>
@@ -280,7 +282,7 @@
         </section>
 
     <!-- SESSÂO GALERIA -->
-    <section id="galeria" class="">
+    <section id="galeria" class="" style="">
       <div class="container">
          <div class="col-12 text-center titulo">
             <h2 class="heading">GALERIA</h2>
@@ -288,13 +290,13 @@
               <i>Confira a Nossa Galeria de Fotos</i>
             </p>
           </div>
-
+<!--
           <div class="owl-carousel owl-theme" id="galeria-slider">
               <img href="#"  class="imagem-galeria" src="img/img2.jpg">
               <img href="#"  class="imagem-galeria" src="img/img8.jpg">
               <img href="#"  class="imagem-galeria" src="img/img4.jpg">
               <img href="#"  class="imagem-galeria" src="img/img5.jpg">
-          </div>
+          </div> -->
 
       </div>
     </section>
@@ -374,24 +376,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/instafeed.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/custom.js"></script>
-    <!-- <script src="lib/owlcarousel/dist/owl.carousel.js"></script> -->
+
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <script>
-       $(document).ready(function() {
-         $(".owl-carousel").owlCarousel({
-           autoplay: true,
-           dots: true,
-           loop: true,
-           responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 3 }
-           }
-         });
-       });
     </script>
   </body>
 </html>

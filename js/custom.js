@@ -3,14 +3,25 @@ $(document).ready(function() {
 
     var userFeed = new Instafeed({
         get: 'user',
-        // userId: '655593012',
         userId:'13441161167',
-        limit: 4,
+        limit: 20,
         resolution: 'standard_resolution',
-        // accessToken: '655593012.1677ed0.af392e0a3ca24e6dac2356327f8063d5',
         accessToken: '13441161167.1677ed0.4503057340ee42d9b69a10e0725773d9',
         sortBy: 'most-recent',
-        template: '<div class="col-lg-3 instaimg"><a href="{{link}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+        template: '<div class="instaimg"><a href="{{link}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+
+        after: function(){
+             $(document).ready(function() {
+               $(".owl-carousel").owlCarousel({
+                 autoplay: true,
+                 dots: true,
+                 loop: true,
+                 margin: 20,
+                 responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 }
+                 }
+               });
+             });
+        }
     });
 
 
