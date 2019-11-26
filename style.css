@@ -38,12 +38,11 @@ html {
   border: none !important;
   margin-left: -5px;
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.4s ease;
 }
 
 #navbar .dropdown-item {
   font-weight: 500 !important;
-  text-align: left !important;
-
 }
 
 #navbar a.dropdown-item:hover {
@@ -57,11 +56,11 @@ html {
 }
 
 #navbar #navbar-menu #sac {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  /* font-family: "Montserrat", sans-serif;
+  font-weight: 500; */
   color: #49ca73;
-  border: 1px solid #49ca73;
-  border-radius: 40px;
+  /* border: 1px solid #49ca73;
+  border-radius: 40px; */
   /* letter-spacing: 1px; */
   /* width: 230px; */
 }
@@ -69,8 +68,16 @@ html {
   color: #8ff2a1;
   border-color: #8ff2a1;
 }
+
+.whatsapp-icon img {
+  position: fixed;
+  bottom: 3vh;
+  right: 0;
+}
+
 #navbar .dropdown:hover .dropdown-menu {
     display: block;
+    transition: 0.5s ease;
 }
 
 /** INTRO **/

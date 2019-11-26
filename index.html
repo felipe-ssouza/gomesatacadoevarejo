@@ -37,8 +37,8 @@
                 Somos
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="sobre.html#empresa">Empresa</a>
-                <a class="dropdown-item" href="sobre.html#historia">História</a>
+                <a class="dropdown-item text-center" href="sobre.html#empresa">Empresa</a>
+                <a class="dropdown-item text-center" href="sobre.html#historia">História</a>
                 <!-- <a class="dropdown-item" href="sobre.html#testemunhos">Testemunhos</a> -->
               </div>
             </li>
@@ -54,24 +54,28 @@
             <li class="nav-item">
               <a href="#testemunhos" class="nav-link">Testemunhos</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="#galeria" class="nav-link">Galeria</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a href="#contato" class="nav-link">Contato</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a  href="https://api.whatsapp.com/send?1=pt_BR&phone=5551997443893" target="_blank" class="nav-link" id="sac">
-                <i class="fa fa-whatsapp" style="color:#49ca73; font-size: 18px "></i>
-                (+55) 51 9 9744-3893
-              </a>
-            </li>
+                <i class="fa fa-whatsapp sac-icon" style="color:#49ca73; font-size: 22px"></i>
+                <span class="sac-fone">
+                  (+55) 51 9 9744-3893
+                </span>
+
+            </li> -->
           </ul>
         </div>
       </nav>
-
+      <a  href="https://api.whatsapp.com/send?1=pt_BR&phone=5551997443893" target="_blank" id="sac" class="whatsapp-icon">
+        <img src="img/WhatsApp-icon.png" alt="whatsapp-icon" width="70px" height="70px">
+      </a>
+    </header>
     <!-- VIDEO -->
-  </header>
     <div class="embed-responsive embed-responsive-16by9 mt-5">
       <video autoplay muted>
         <source src="img/gomes.mp4" type="video/mp4">
@@ -282,7 +286,7 @@
         </section>
 
     <!-- SESSÂO GALERIA -->
-    <section id="galeria" class="" style="">
+    <!-- <section id="galeria" class="" style="">
       <div class="container">
          <div class="col-12 text-center titulo">
             <h2 class="heading">GALERIA</h2>
@@ -299,7 +303,7 @@
           </div>
 
       </div>
-    </section>
+    </section> -->
 
     <!--SESSÂO CONTATO-->
     <section id="contato" >
@@ -385,6 +389,10 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <script>
+      $(document).ready(function() {
+        $(".sac-fone").css("display", "none");
+      });
+
     </script>
   </body>
 </html>
